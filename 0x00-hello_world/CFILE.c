@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include <studio.h>
 /**
  * main - Entry point
  *
@@ -7,5 +6,5 @@
  */
 int main(void)
 {
-	retern(0);
+    return (0);
 }
