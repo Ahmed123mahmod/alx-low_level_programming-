@@ -17,4 +17,5 @@ int main(void)
 		} else {
 			 printf("number is negative");
 		}
+		return (0);
 }
