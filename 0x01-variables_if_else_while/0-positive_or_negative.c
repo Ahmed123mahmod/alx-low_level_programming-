@@ -11,11 +11,11 @@ int main(void)
 	printf("what is the number? \n");
 	scanf("%d",&n);
 		if(n > 0){
-			printf("is positive");
-		} else if (n==0){
-			 printf("is zero");
+			printf("%d is positive");
+		} else if (n == 0){
+			 printf("%d is zero");
 		} else {
-			 printf("is negative");
+			 printf("%d is negative");
 		}
 		return (0);
 }
