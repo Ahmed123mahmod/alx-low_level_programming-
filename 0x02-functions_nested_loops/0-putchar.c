@@ -1,15 +1,10 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main - Write a program that prints _putchar, followed by a new line.
- * Return: Always 0 (success)
+ * Return: ALways 0 (success)
 */
-void greeting(void)
-{
-	printf("_putchar\n");
-}
 int main(void)
 {
-	greeting();
+	putchar("_putchar\n");
 	return (0);
 }
